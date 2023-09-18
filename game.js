@@ -9,7 +9,7 @@ let intentos = 0;
 let primeraInicial = palabraSecreta.charAt(0);
 let ultimaInicial = palabraSecreta.charAt(palabraSecreta.length - 1);
 
-var palabraAdivinada = "_".repeat(palabraSecreta.length);
+let palabraAdivinada = "_".repeat(palabraSecreta.length);
 
 // Inicio del juego
 function mostrarPalabraAdivinada() {
